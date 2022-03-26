@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #EBEDF0;
+    display: flex;
+}
+#navbar{
+    width: 4%;
+    height: 100vh;
+    background-color: white;
+    padding: 15px 0;
+}
+
+#left-menu{
+    /* background-color: chartreuse; */
+    width: 24%;
+    height: 100vh;
+    padding: 10px 5px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#main-post{
+    /* background-color: cyan; */
+    width: 48%;
+    height: 100vh;
+    padding-top: 20px;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    position: relative;
+}   
+
+#right-menu{
+    /* background-color: chartreuse; */
+    width: 24%;
+    height: 100vh;
+    padding: 15px 10px;    
+    overflow: auto;
+    position: relative;
+}
+
+/* Navba styling start from here */
+
+.fb-icon{
+    text-align: center;
+}   
+.fb-icon-img{
+    width: 40px;
+    height: 40px;
+}
+.navbar-icon-div{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin: 17px auto;
+    background-color: rgba(24, 119, 242, 0.2);
+    border-radius: 50%;
+    position: relative;
+}
+.navbar-icon-div-img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin: auto;
+    bottom: 0;top: 0;right: 0;left: 0;
+    color: #1877F2;
+}
+/* #b9e4f6 */
+
+.navbar-scrolling-sub{
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.top-three-icon-img{
+    margin-left: -3px;
+}
+.group-icon{
+    margin: 5px 0;
+    text-align: center;
+}
+.group-icon-img{
+    width: 35px;
+    height: 35px;
+}
+.navbar-profile-icon{
+    text-align: center;
+}
+.navbar-profile-icon-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 11px auto;
+
+}
+
+/* Scroll bar styling navbar*/
+.navbar-scrolling-sub::-webkit-scrollbar{
+    width: 8px;
+}
+
+.navbar-scrolling-sub::-webkit-scrollbar-thumb{
+    background-color: #ced0d4;
+    border-radius: 10px;
+}
+
+
+/********************** Left Menu styling start from here ************************/
+
+.left-menu-div{
+    width: 100%;
+    height: 50px;
+    margin: 5px 0;
+    padding: 10px 15px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+}
+.left-menu-div:hover{
+    background-color: rgb(95, 93, 93, 0.1);
+    border-radius: 6px;
+}
+
+.left-menu-div-img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+
+.left-menu-text{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.see-less-up{
+    margin: 0;
+    width: 35px;
+    height: 35px;
+}
+.see-less{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin: 0 10px;
+}
+
+hr{
+    width: 85%;
+    margin: 0 20px;
+}
+
+.left-menu-shortcut-text{
+    margin: 10px 15px;
+}
+
+.left-menu-text-sub{
+    font-size: 13px;
+    color: #1877F2;
+}
+
+/* Scroll bar styling navbar*/
+#left-menu::-webkit-scrollbar{
+    width: 8px;
+}
+
+#left-menu::-webkit-scrollbar-thumb{
+    background-color: #ced0d4;
+    border-radius: 10px;
+}
+
+/********************** right Menu styling start from here ************************/
+
+.sponsered{
+    width: 100%;
+    height: 19rem;
+}
+
+.sponsered-text{
+    padding: 10px 0;
+}
+.sponsered-text h4{
+    color: rgb(126, 122, 122);
+}
+
+.first-sponsered-ad{
+    display: flex;
+    align-items: center;
+}
+.sponsered-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 7%;
+}
+.sponsered-ad-text{
+    margin-left: 15px;
+}
+
+.second-sponsered-ad{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+/* Contact div styling in right menu */
+
+.contact{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.contact-sub2{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    right: 10%;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.people-on-messenger{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin: 5px 0;
+    align-items: center;
+}
+
+.profile-img{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.profile-name{
+    font-weight: bolder;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+/* Scroll bar styling navbar*/
+#right-menu::-webkit-scrollbar{
+    width: 8px;
+}
+
+#right-menu::-webkit-scrollbar-thumb{
+    background-color: #ced0d4;
+    border-radius: 10px;
+}
+
+.right-menu-edit-btn{
+    width: 55px;
+    height: 55px;
+    margin: auto;
+    background-color: white;
+    border-radius: 100%;
+    position: fixed;
+    right: 2%;bottom: 5%;
+}
+.right-menu-edit-btn img{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    position: absolute;
+    left: 0;right: 9%;bottom: 3%;top: 0;
+}
+
+
+
+/********************** Middle part of page stying start from here  *****************************/
+
+.main-content{
+    width: 100%;
+    height: 97vh;
+    /* background-color: white; */
+}
+
+.stories{
+    width: 100%;
+    height: 200px;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.my-story{
+    width: 18.8%;
+    height: 200px;
+    /* background-color: aqua; */
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    position: relative;
+    transition: 0.7s;
+}
+.my-story:hover{
+    opacity: 0.6;
+}
+
+.my-story-img{
+    width: 100%;
+    height: 75%;
+    box-shadow: 2px 2px 3px grey;
+    overflow: hidden;
+}
+
+.my-story-img img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    transition: 0.8s;
+}
+.my-story-img img:hover{
+    width: 105%;
+    height: 105%;
+}
+
+.add-story{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100%;
+    margin: auto;
+    position: absolute;
+    left: 0; right: 0; top: 65%;
+}
+.blue-add-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    margin: auto;
+    left: 0; right: 0; top: 0;bottom: 0;
+}
+
+
+.create-story{
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    text-align: center;
+    padding-top: 24px;
+    box-shadow: 2px 2px 3px grey;
+}
+
+.create-story-text{
+    font-size: 12px;
+    font-weight: 600;   
+}
+
+.story{
+    width: 18.8%;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 10%;
+    box-shadow: 2px 2px 3px grey;
+}
+.story img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+.story-forward-arrow{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    margin: auto;
+    right: 6.5%;top: 12%;
+}
+.story-forward-arrow img{
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    position: absolute;
+    left: 0;right: 0;bottom: 0;top: 0;
+}
+
+/* after story part styling  */
+
+.after-stories{
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px grey;
+    padding: 10px;
+
+}
+
+.whats-in-your-mind{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    /* background-color: hotpink; */
+    border-bottom-width: 0.2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(216, 210, 210);
+}
+
+.live{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: skyblue; */
+}
+
+.profile img{
+    width: 40px;
+    height: 40px;
+    margin-left: 3px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+
+.create-post-btn{
+    width: 32.5rem;
+    height: 37px;
+    -webkit-border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: rgba(216, 220, 228, 0.5);
+    border: none;
+    color: rgb(95, 93, 93);
+    text-align: left;
+    font-size: 15px;
+    padding: 0 20px;
+}
+
+.live-photo-feeling{
+    width: 11.5rem;
+    height: 35px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.live-photo-feeling img{
+    width: 30px;
+    height: 30px;
+}
+.live-photo-feeling p{
+    margin-left: 10px;
+}
+
+.live-photo-feeling:hover{
+    background-color: rgb(95, 93, 93, 0.1);
+}
