@@ -422,6 +422,7 @@ hr{
     border-bottom-color: rgb(216, 210, 210);
 }
 
+
 .live{
     width: 100%;
     height: 50%;
@@ -451,6 +452,9 @@ hr{
     font-size: 15px;
     padding: 0 20px;
 }
+.create-post-btn:hover{
+    background-color: rgb(95, 93, 93, 0.2);
+}
 
 .live-photo-feeling{
     width: 11.5rem;
@@ -472,4 +476,75 @@ hr{
 
 .live-photo-feeling:hover{
     background-color: rgb(95, 93, 93, 0.1);
+}
+
+
+/* Styling create room section in middle menu */
+
+.createRoom{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px grey;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    position: relative;
+}
+.createRoom-btn{
+    width: 10rem;
+    height: 2.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    -webkit-border-radius: 20px;
+    border: 0.05px solid rgb(218, 213, 213);
+    background-color: white;
+    margin-right: 15px;
+}
+.createRoom-btn img{
+    width: 25px;
+    height: 22px;
+}
+.createRoom-btn p{
+    color: #1877F2;
+    font-weight: 700;
+}
+
+.createRoom-btn:hover{
+    background-color: rgb(95, 93, 93, 0.1);
+}
+
+.people-in-liveRoom{
+    /* width: 100%; */
+    /* height: 30px; */
+    display: flex;
+    align-items: center;
+}
+
+.profile-img-live-room{
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    margin-right: 19px;
+}
+
+.forward-arrow-live-room{
+    width: 50px;
+    height: 50px;
+    background-color: #f7f7f7;
+    border-radius: 100%;
+    position: absolute;
+    margin: auto;
+    right: 2%;
+}
+.forward-arrow-live-room img{
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    position: absolute;
+    right: 0;left: 0;bottom: 0;top: 0;
 }
